@@ -19,6 +19,7 @@ BeautyLanding — это простой инструмент для создан
 ## 🛠 Технологический стек
 
 ### Frontend
+
 - React 18
 - Vite
 - Tailwind CSS
@@ -26,6 +27,7 @@ BeautyLanding — это простой инструмент для создан
 - React Router v6
 
 ### Backend
+
 - Node.js 20
 - Express.js
 - PostgreSQL (Supabase)
@@ -33,6 +35,7 @@ BeautyLanding — это простой инструмент для создан
 - Cloudinary (хранение изображений)
 
 ### Hosting
+
 - Frontend: Vercel
 - Backend: Railway
 - Database: Supabase
@@ -61,6 +64,7 @@ npm install
 1. Создать `.env` файлы в `frontend/` и `backend/`:
 
 **backend/.env:**
+
 ```env
 PORT=3000
 DATABASE_URL=postgresql://user:password@localhost:5432/beautylanding
@@ -71,6 +75,7 @@ CLOUDINARY_API_SECRET=your-api-secret
 ```
 
 **frontend/.env:**
+
 ```env
 VITE_API_URL=http://localhost:3000/api
 ```
@@ -85,17 +90,21 @@ npx prisma migrate dev
 ### Запуск
 
 **Frontend:**
+
 ```bash
 cd frontend
 npm run dev
 ```
+
 Откроется на http://localhost:5173
 
 **Backend:**
+
 ```bash
 cd backend
 npm run dev
 ```
+
 Запустится на http://localhost:3000
 
 ## 📁 Структура проекта
@@ -171,6 +180,7 @@ MIT License - см. файл [LICENSE](LICENSE)
 ## 👤 Автор
 
 **Aleksej Gromov**
+
 - GitHub: [@aleksejgromov](https://github.com/aleksejgromov)
 
 ## 🙏 Благодарности
