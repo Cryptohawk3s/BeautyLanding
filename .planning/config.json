@@ -1,0 +1,57 @@
+{
+  "project": {
+    "name": "BeautyLanding",
+    "version": "0.1.0",
+    "description": "Конструктор лендингов для косметологов и бьюти-мастеров",
+    "created": "2026-05-18",
+    "repository": "https://github.com/aleksejgromov/BeautyLanding"
+  },
+  "workflow": {
+    "planning_detail": "detailed",
+    "research_enabled": true,
+    "auto_commit": true,
+    "verification_level": "standard"
+  },
+  "team": {
+    "developer": "aleksejgromov",
+    "experience_level": "beginner",
+    "available_hours_per_day": "3-5"
+  },
+  "timeline": {
+    "start_date": "2026-05-18",
+    "target_mvp": "2026-06-15",
+    "duration_weeks": 4
+  },
+  "tech_stack": {
+    "frontend": {
+      "framework": "React 18",
+      "styling": "Tailwind CSS",
+      "state": "Zustand",
+      "routing": "React Router v6",
+      "forms": "React Hook Form"
+    },
+    "backend": {
+      "runtime": "Node.js 20",
+      "framework": "Express.js",
+      "database": "PostgreSQL",
+      "orm": "Prisma",
+      "auth": "JWT"
+    },
+    "infrastructure": {
+      "frontend_host": "Vercel",
+      "backend_host": "Railway",
+      "database_host": "Supabase",
+      "file_storage": "Cloudinary",
+      "email": "SendGrid"
+    }
+  },
+  "business": {
+    "model": "one-time-purchase",
+    "target_audience": "B2C",
+    "pricing": {
+      "basic": 29,
+      "standard": 49,
+      "premium": 79
+    }
+  }
+}
