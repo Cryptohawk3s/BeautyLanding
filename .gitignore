@@ -11,3 +11,5 @@ coverage/
 .next/
 out/
 uploads/
+
+/generated/prisma
