@@ -10,6 +10,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Routes
+const uploadRoutes = require('./routes/upload');
+
 // Базовый route
 app.get('/api/health', (req, res) => {
   res.json({
@@ -18,6 +21,9 @@ app.get('/api/health', (req, res) => {
     timestamp: new Date().toISOString(),
   });
 });
+
+// Upload route
+app.use('/api', uploadRoutes);
 
 // 404 handler
 app.use((req, res) => {
